@@ -8,7 +8,8 @@
     "build": "webpack",
     "dev-build": "webpack --watch",
     "web-server": "http-server public",
-    "dev": "run-p web-server dev-build"
+    "dev": "run-p web-server dev-build",
+    "start": "run-p web-server dev-build"
   },
   "keywords": [],
   "author": "",
